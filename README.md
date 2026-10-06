@@ -5,7 +5,7 @@ Troubleshoot VPC instances - instance A cannot reach the internet, instance B ca
 Hello, Cloud Support!        
 We currently have one virtual private cloud (VPC) with a CIDR range of 10.0.0.0/16. In this VPC, we have two Amazon Elastic Compute Cloud (Amazon EC2) instances: instance A and instance B. Even though both are in the same subnet and have the same configurations with AWS resources, instance A cannot reach the internet, and instance B can reach the internet. I think it has something to do with the EC2 instances, but I'm not sure. I also had a question about using a public range of IP address such as 12.0.0.0/16 for a VPC that I would like to launch. Would that cause any issues? 
 
-<h1>Navigate to AWS Console and check the instances</h1>
+<h1>Navigate to AWS Console and check the IP Addresses of instances</h1>
 Instance A IP address details
 <img width="1630" height="532" alt="image" src="https://github.com/user-attachments/assets/e071a07b-125d-48be-b9a5-3fb074828a6a" />
 Instance B IP Address details
@@ -29,6 +29,7 @@ Confirm
 
 <h1>Go back to PowerShell and connect to Instance A using the Public IP</h1>
 <img width="1102" height="607" alt="image" src="https://github.com/user-attachments/assets/e3b19e80-cc1b-4b65-b3e5-a3e1f7c2dce3" />
+Connection to the instance is now successful.
 
 
 
