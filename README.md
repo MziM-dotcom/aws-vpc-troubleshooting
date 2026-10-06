@@ -19,7 +19,7 @@ I can connect to instance B without any issues
 <img width="1098" height="188" alt="image" src="https://github.com/user-attachments/assets/4aafe35b-b488-46d1-a3b0-ed63446d3ea9" />
 
 <h1>Navigate back AWS Console to update Instance A IP Addresses</h1>
-Actions > Networking > Manage IP Address > Auto-Assign Public IP > Save
+Actions > Networking > Manage IP Addresses > Select Auto-Assign Public IP > Save
 <img width="1911" height="862" alt="image" src="https://github.com/user-attachments/assets/662c6864-24ed-4535-91a6-b3f8298418c0" />
 Confirm
 <img width="682" height="303" alt="image" src="https://github.com/user-attachments/assets/aecca21c-c070-48df-b6da-bf1c6e7670e8" />
